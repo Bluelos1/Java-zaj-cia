@@ -85,7 +85,7 @@ public class Main {
     }
 
         */
-        Scanner scanner = new Scanner(System.in);
+       /* Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int nwd = 0;
@@ -134,7 +134,18 @@ public class Main {
         }
         return nwd;
     }
+    public static void main(String[] args) {
+        // write your code here
+        MyCircle a = new MyCircle(2.4);
+        Wiatrak b = new Wiatrak();
+        b.informacje();
+        Wiatrak c = new Wiatrak(5.5,true,4.8,"blue");
+        c.informacje();
 
+    }*/
+        public int compare(int a, int b)
+
+}
 
 }
 
