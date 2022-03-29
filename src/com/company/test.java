@@ -2,8 +2,9 @@ package com.company;
 
     public class test {
 
-        public static void main(String[] args) {
-            public static int compare(int a, int b){
+      /*  public static void main(String[] args) {
+            public static int compare(int a){
+
                 if(a>b){
                     System.out.println(-1);
 
@@ -20,4 +21,6 @@ package com.company;
 
 
         }
+        */
+
     }

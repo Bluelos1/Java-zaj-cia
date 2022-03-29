@@ -1,7 +1,7 @@
 package com.company;
 
 
-public class MyCircle {
+/*public class MyCircle {
     double radius;
 
     public MyCircle(double radius){
@@ -17,4 +17,8 @@ public class MyCircle {
     public double srednica(){
         return radius * 2;
     }
+
+
 }
+
+ */

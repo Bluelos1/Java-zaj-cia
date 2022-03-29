@@ -143,7 +143,7 @@ public class Main {
         c.informacje();
 
     }*/
-        public int compare(int a, int b)
+
 
 }
 

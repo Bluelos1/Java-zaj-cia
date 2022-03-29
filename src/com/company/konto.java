@@ -9,7 +9,7 @@ public class konto {
 
     public static void main(String[] args) {
         konto account [] = new konto[4];
-        account[0] = id = 1 , balance = 100 ;
+
         Scanner scanner = new Scanner(System.in);
         int id = scanner.nextInt();
 
