@@ -9,6 +9,6 @@ public class Wyscig {
         zawodnik.przedstawSie();
         zawodnik1.przedstawSie();
         zawodnik2.przedstawSie();
-        for (zawodnik.dist)
+       // for (zawodnik.dist)
     }
 }

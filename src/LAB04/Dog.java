@@ -20,6 +20,7 @@ package LAB04;
             this.age = age;
         }
 
+
         public void starzejSie() {
             age++;
             if(age>16) {

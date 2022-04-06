@@ -1,5 +1,6 @@
 package LAB04;
 
+
 public class Circle2D {
     private double x;
     private double y;
