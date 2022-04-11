@@ -22,10 +22,13 @@ public class Triangle {
         return a+b+c;
     }
 
-    public Triangle(int a, int b, int c){
+    public Triangle(int a, int b, int c,int h1,int h2,int h3){
         this.a=a;
         this.b=b;
         this.c=c;
+        this.h1=h1;
+        this.h2=h2;
+        this.h3=h3;
     }
     boolean check_trian(){
         if(a+b>c || a+c>b || b+c>a ){

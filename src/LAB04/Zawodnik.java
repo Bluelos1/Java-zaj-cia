@@ -8,6 +8,10 @@ public class Zawodnik {
     private double V_min;
     private double dist;
 
+    public double getDist() {
+        return dist;
+    }
+
     public Zawodnik(String imie, double V_max, double V_min){
         this.imie=imie;
         this.V_max=V_max;
@@ -20,6 +24,6 @@ public class Zawodnik {
     }
     public void biegnij(){
         Random rand = new Random();
-        rand.nextInt(50);
+        dist += rand.nextInt((int)(V_max-V_min))+V_min;
     }
 }
