@@ -1,6 +1,6 @@
 package LAB05;
 
-/*public class Dom {
+public class Dom {
     private String ulica;
     private double powierzchniaDomu;
     private double powierzchniaOgrodu;
@@ -15,6 +15,16 @@ package LAB05;
         this.czyZamieszkany = czyZamieszkany;
     }
 
-
+    @Override
+    public String toString() {
+        return "Dom{" +
+                "ulica='" + ulica + '\'' +
+                ", powierzchniaDomu=" + powierzchniaDomu +
+                ", powierzchniaOgrodu=" + powierzchniaOgrodu +
+                ", iloscPieter=" + iloscPieter +
+                ", czyZamieszkany=" + czyZamieszkany +
+                '}';
     }
-}*/
+}
+
+
